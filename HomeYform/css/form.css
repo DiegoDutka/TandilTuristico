@@ -1,0 +1,8 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+form input, textarea {
+    border: solid black 2px;
+}
