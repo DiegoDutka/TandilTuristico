@@ -9,13 +9,15 @@
 </head>
 <body>
     <h1>Dejanos tu Consulta</h1>
-    <form id="formConsulta">
-        <input type="text" placeholder="Nombre">
-        <input type="text" placeholder="Apellido">
-        <input type="mail" placeholder="Email">
-        <textarea name="" id="" cols="30" rows="5" placeholder="Escribe aqui tu consulta"></textarea>
-        <input type="submit">
+    <form id="formConsulta" action="">
+        <input id="nombre" type="text" placeholder="Nombre" >
+        <input id="apellido" type="text" placeholder="Apellido" >
+        <input id="mail" type="email" placeholder="Email" >
+        <textarea  name="" id="consulta" cols="30" rows="5" placeholder="Escribe aqui tu consulta" ></textarea>
+        <input id="btnForm" type="submit">
     </form>
+    <p id="confirmacion"></p>
     
+    <script src="js/form.js"></script>
 </body>
 </html>
