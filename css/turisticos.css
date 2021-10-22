@@ -21,4 +21,11 @@ img {
 .parentContainer {
     display:flex;
     flex-direction: row;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .parentContainer {
+        flex-direction: column;
+    }
 }
