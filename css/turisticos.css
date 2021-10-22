@@ -24,6 +24,10 @@ img {
     margin: 20px;
 }
 
+.textContainer {
+    margin: 10px;
+}
+
 @media only screen and (max-width: 800px){
     .parentContainer {
         flex-direction: column;
