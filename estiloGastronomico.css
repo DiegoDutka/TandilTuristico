@@ -27,15 +27,15 @@ body {
     font-size: 14px;
 }
 
-
 .imagenCursos {
-    justify-content: center;
     width: 45%;
     height: 250px;
     border-radius: 30px;
 }
 
-.cursos {
-    
-    justify-content: center;
+.restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 1px white ;
 }
