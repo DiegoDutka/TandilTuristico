@@ -1,0 +1,41 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background: black;
+}
+
+.titulo{
+    margin-top: 0;
+    padding-top: 10px;
+    color:black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contenedorLista-espacios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituloContenidos , .tituloCursos {
+    font-size:20px;
+    text-align: center;
+}
+.contenidos{
+    border-bottom: solid 1px white ;
+    font-size: 14px;
+}
+
+
+.imagenCursos {
+    justify-content: center;
+    width: 45%;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.cursos {
+    
+    justify-content: center;
+}
