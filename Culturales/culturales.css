@@ -1,3 +1,8 @@
+* {
+    background-color: #F1F3F4;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 h1{
     text-align: center;
 }
@@ -25,3 +30,4 @@ margin: 0%;
 .parrafos{
     width: 70%;
 }
+
