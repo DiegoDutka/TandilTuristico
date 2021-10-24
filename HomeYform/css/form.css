@@ -56,3 +56,41 @@ form {
 form input, textarea {
     border: solid black 2px;
 }
+
+
+
+.form__footer{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    min-height: 200px;
+    min-width: 665px;
+    background-color: #32f;
+    align-items: center;
+}
+
+    .form__footer h4, h6{
+        color: #eee;
+        font-size: 24px;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+        .form__footer h4{
+            font-size: 42px;
+        }
+
+    .form__footer ul{
+        margin-top: 15px;
+    }
+
+    .form__footer ul li{
+        list-style: none;
+        margin-bottom: 15px;
+    }
+
+    .form__footer ul li a{
+        text-decoration: none;
+        color: #eee;
+        font-size: 19px;
+    }
