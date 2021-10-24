@@ -48,15 +48,59 @@ justify-content: space-between;
                 }
 
 
-form {
+.form__container{
     display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-form input, textarea {
-    border: solid black 2px;
+    justify-content: center;
+    height: 88vh;
+    min-height: 445px;
+    background: radial-gradient(circle, #F9F871,#FFC55D);
 }
 
+    .form__container div{
+        min-width: 690px;
+        color: #6B6AED;
+        font-style: italic;
+    }
+
+    .form__container p{
+        margin-left: 40px;
+        color: #eee;
+        font-weight: 900;
+        font-size: 22px;
+    }
+
+    #formConsulta{
+        min-width: 690px;
+        
+    }
+
+    #formConsulta {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        box-shadow: 16px 30px 0 5px #07f;
+    }
+    #formConsulta input, textarea {
+        border: none;
+        border-bottom: 3px solid #FF66B0;
+        background: #fee;
+        padding: 9px;
+        color: #002290;
+        font-weight: 900;
+        resize: none;
+    }
+
+        form input, textarea:focus {
+            outline: none;
+        }
+
+        #btnForm:hover{
+            background: #FF66B0;
+        }
+
+        #btnForm:active{
+            background: #f10979;
+        }
 
 
 .form__footer{

@@ -17,7 +17,7 @@ function enviarConsulta(e) {
         consulta .value="";
         confirmacion.innerHTML="Tu consulta ha sido enviada";
     }else{
-        confirmacion.innerHTML="Debes completar todos los campos";
+        confirmacion.innerHTML="**Debes completar todos los campos**";
     }
     
         
