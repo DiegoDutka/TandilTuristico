@@ -53,7 +53,10 @@ justify-content: space-between;
     justify-content: center;
     height: 88vh;
     min-height: 445px;
-    background: radial-gradient(circle, #F9F871,#FFC55D);
+    background-image: url(../home-img/lake.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
 }
 
     .form__container div{
@@ -64,25 +67,23 @@ justify-content: space-between;
 
     .form__container p{
         margin-left: 40px;
-        color: #eee;
+        color: #bbb;
         font-weight: 900;
         font-size: 22px;
-    }
-
-    #formConsulta{
-        min-width: 690px;
-        
     }
 
     #formConsulta {
         display: flex;
         flex-direction: column;
         width: 50%;
-        box-shadow: 16px 30px 0 5px #07f;
+        min-width: 690px;
+        padding: 10px;
+        background: #fee;
+        border-radius: 30px;
     }
     #formConsulta input, textarea {
         border: none;
-        border-bottom: 3px solid #FF66B0;
+        border-bottom: 1px solid #FF66B0;
         background: #fee;
         padding: 9px;
         color: #002290;
@@ -92,6 +93,11 @@ justify-content: space-between;
 
         form input, textarea:focus {
             outline: none;
+        }
+
+        #btnForm{
+            margin: 10px 0;
+            border-radius: 15px;
         }
 
         #btnForm:hover{
