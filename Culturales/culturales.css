@@ -1,0 +1,33 @@
+* {
+    background-color: #F1F3F4;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    padding-left: 50px;
+}
+
+img{
+    width: 70%;
+    padding: 0%;
+}
+
+
+.espaciosculturales{
+    display: flex;
+    flex-direction: row;
+}
+
+.figure{
+width: 40%;
+margin: 0%;
+}
+
+.parrafos{
+    width: 70%;
+}
+

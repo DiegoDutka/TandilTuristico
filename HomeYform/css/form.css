@@ -1,0 +1,146 @@
+.form__header{
+display: flex;
+height: 12vh;
+min-height: 54px;
+min-width: 1098px;
+background: #07f;
+align-items: center;
+justify-content: space-between;
+}
+
+    .form__header-name{
+        color: #eee;
+        font-size: 32px;
+        font-style: italic;
+        text-decoration: underline;
+        margin: 0 2vw;
+    }
+
+    #form__search-input{
+            width: 30vw;
+            padding: 10px 0;
+            padding-left: 7px;
+            border-radius: 30px;
+            border: 2px solid #ddd;
+    }
+        #form__search-input:focus{
+            outline: none;
+        }
+
+    .form__header-nav{
+        margin-right: 2vw;
+    }
+
+        .form__header-nav ul li{
+            display: inline-block;
+        }
+            .form__header-nav ul li a{
+                text-decoration: none;
+                color: #eee;
+                font-size: 24px;
+                padding: 7px;
+                margin: 5px;
+                font-weight: 900;
+            }
+
+                .form__header-nav ul li a:hover{
+                    background-color: #04f;
+                }
+
+
+.form__container{
+    display: flex;
+    justify-content: center;
+    height: 88vh;
+    min-height: 445px;
+    background-image: url(../home-img/lake.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+    .form__container div{
+        min-width: 690px;
+        color: #6B6AED;
+        font-style: italic;
+    }
+
+    .form__container p{
+        margin-left: 40px;
+        color: #bbb;
+        font-weight: 900;
+        font-size: 22px;
+    }
+
+    #formConsulta {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        min-width: 690px;
+        padding: 10px;
+        background: #fee;
+        border-radius: 30px;
+    }
+    #formConsulta input, textarea {
+        border: none;
+        border-bottom: 1px solid #FF66B0;
+        background: #fee;
+        padding: 9px;
+        color: #002290;
+        font-weight: 900;
+        resize: none;
+    }
+
+        form input, textarea:focus {
+            outline: none;
+        }
+
+        #btnForm{
+            margin: 10px 0;
+            border-radius: 15px;
+        }
+
+        #btnForm:hover{
+            background: #FF66B0;
+        }
+
+        #btnForm:active{
+            background: #f10979;
+        }
+
+
+.form__footer{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    min-height: 200px;
+    min-width: 665px;
+    background-color: #32f;
+    align-items: center;
+}
+
+    .form__footer h4, h6{
+        color: #eee;
+        font-size: 24px;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+        .form__footer h4{
+            font-size: 42px;
+        }
+
+    .form__footer ul{
+        margin-top: 15px;
+    }
+
+    .form__footer ul li{
+        list-style: none;
+        margin-bottom: 15px;
+    }
+
+    .form__footer ul li a{
+        text-decoration: none;
+        color: #eee;
+        font-size: 19px;
+    }

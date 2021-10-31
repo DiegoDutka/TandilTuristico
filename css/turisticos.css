@@ -1,0 +1,35 @@
+h1 {
+    color: goldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+}
+
+h4 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: darkgoldenrod;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    max-width: 480px;
+}
+
+.parentContainer {
+    display:flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.textContainer {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 800px){
+    .parentContainer {
+        flex-direction: column;
+    }
+}

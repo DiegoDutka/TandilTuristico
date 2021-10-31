@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+<header class="form__header">
+    <div class="form__header-name">
+        <h2>Tandil Turístico</h2>
+    </div>
+
+    <div class="form__header-search">
+        <form id="form__search" action="">
+            <input id="form__search-input" type="text" placeholder="Buscar">
+        </form>
+    </div>
+
+    <nav class="form__header-nav">
+        <ul>
+            <li><a href="">Cultura</a></li>
+            <li><a href="">Gastronomía</a></li>
+            <li><a href="">Turismo</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+
+<article class="form__container">
+    <div>
+        <h1>Dejanos tu Consulta</h1>
+        <form id="formConsulta" action="">
+            <input id="nombre" type="text" placeholder="Nombre" >
+            <input id="apellido" type="text" placeholder="Apellido" >
+            <input id="mail" type="email" placeholder="Email" >
+            <textarea  name="" id="consulta" cols="30" rows="5" placeholder="Escribe aqui tu consulta" ></textarea>
+            <input id="btnForm" type="submit">
+        </form>
+        <p id="confirmacion"></p>
+    </div>
+</article>
+
+
+<footer class="form__footer">
+    <h4>Tandil Turístico</h4>
+
+    <div class="form__footer-nosotros">
+        <h6>Sobre nosotros</h6>
+        <ul>
+            <li><a href="">Empresa</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Trabaja con nosotros</a></li>
+            <li><a href="">Prensa</a></li>
+        </ul>
+    </div>
+
+    <div class="form___footer-redes">
+        <h6>Redes sociales</h6>
+        <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Youtube</a></li>
+        </ul>
+    </div>
+</footer>
+    
+    <script src="js/form.js"></script>
+</body>
+</html>
