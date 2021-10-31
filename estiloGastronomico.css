@@ -18,7 +18,7 @@ body {
     justify-content: center;
 }
 
-.tituloContenidos , .tituloCursos {
+.tituloContenidos , .titulo{
     font-size:20px;
     text-align: center;
 }
